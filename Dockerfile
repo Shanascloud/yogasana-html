@@ -5,4 +5,4 @@ FROM httpd:2.4
 MAINTAINER "vinosmpal@gmail.com" 
 
 # copy the yogasan index project file  inside HTTPD Container
-COPY ./* /usr/local/apache2/htdocs/
+COPY ./ /usr/local/apache2/htdocs/
